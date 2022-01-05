@@ -90,6 +90,11 @@ p {
   font-weight: 400;
   margin-bottom: 24px;
 }
+.landing .landing-content .button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* Service */
