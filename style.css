@@ -176,6 +176,32 @@ p {
 }
 
 
+/* Curriculum */
+.curriculum {
+
+}
+.curriculum .row:first-child {
+  margin-bottom: 48px;
+}
+.curriculum .row:last-child .col-12:first-child {
+  margin-bottom: 40px;
+}
+.curriculum .section-category {
+  color: #0189D1;
+}
+.curriculum .section-desc {
+  margin-bottom: 32px;
+}
+.curriculum .curriculum-image {
+  display: none;
+}
+.curriculum .curriculum-desc {
+  font-size: 15px;
+  line-height: 1.4666666667;
+  letter-spacing: -0.01em;
+}
+
+
 /* >= 768px (Desktop) */
 @media screen and (min-width: 768px) {
   /* Reset CSS */
@@ -255,6 +281,34 @@ p {
   .program .program-card img {
     margin-bottom: 24px;
   }
+
+
+  /* Curriculum */  
+  .curriculum .row:first-child .col-md-6:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .curriculum .row:first-child {
+    margin-bottom: 24px;
+  }
+  .curriculum .row:last-child .col-12:first-child {
+    margin-bottom: 0;
+  }
+  .curriculum .section-desc {
+    margin-bottom: 72px;
+  }
+  .curriculum .curriculum-image {
+    display: block;
+    max-width: 425px;
+  }
+  .curriculum .curriculum-image img {
+    width: 100%;
+  }  
+  .curriculum .curriculum-desc {
+    font-size: 18px;
+    line-height: 1.4444444444;
+  }  
 }
 
 
