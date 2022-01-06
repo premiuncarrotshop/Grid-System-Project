@@ -256,6 +256,23 @@ p {
 }
 
 
+/* Footer */
+footer {
+  padding: 24px 0;
+}
+footer .footer-links .footer-link {
+  margin-bottom: 8px;
+}
+footer .footer-links .footer-link:last-child {
+  margin-bottom: 0;
+}
+footer .footer-links .footer-link a {
+  font-size: 14px;
+  line-height: 1.7142857143;
+  letter-spacing: -0.01em;
+  color: #807F81;
+}
+
 
 /* >= 768px (Desktop) */
 @media screen and (min-width: 768px) {
@@ -409,6 +426,22 @@ p {
   .subscription .subscription-detail {
     font-size: 14px;
     line-height: 1.7142857143;
+  }
+
+
+  /* Footer */
+  footer {
+    padding: 16px 0;
+  }
+  footer .footer-links {
+    display: flex;
+  }
+  footer .footer-links .footer-link {
+    margin-right: 16px;
+    margin-bottom: 0;
+  }
+  footer .footer-links .footer-link:last-child {
+    margin-right: 0;
   }
 }
 
